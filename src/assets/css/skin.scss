@@ -1,0 +1,16 @@
+/* 375设计稿 */
+@function pxToRem($px) {
+    @return $px/12+rem;
+}
+
+/* 750设计稿 */
+@function pxToRem2($px) {
+    @return $px/12/2+rem;
+}
+$mainColor: #f54741;
+$success: #67C23A;
+$warning: #E6A23C;
+$danger: #F56C6C;
+$info: #909399;
+$borderColor: #d9d9d9;
+$headerBg: #FB4538

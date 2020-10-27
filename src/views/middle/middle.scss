@@ -1,0 +1,64 @@
+body{
+    background: #f7f7f7;
+    .middle{
+        padding:pxToRem2(24);
+        .content{
+            height:pxToRem(179);
+            width:100%;
+            border-radius: pxToRem2(5);
+            background: #fff;
+            padding:pxToRem2(29) pxToRem2(49) pxToRem2(35) pxToRem2(49);
+            box-sizing: border-box;
+            .title{
+                font-size: pxToRem(16);
+                font-family: PingFang, PingFang-SC;
+                font-weight: SC;
+                text-align: left;
+                color: #333333;
+                line-height: pxToRem(50);
+            }
+            p {
+                font-size: pxToRem(14);
+                font-family: PingFang, PingFang-SC;
+                font-weight: SC;
+                text-align: left;
+                color: #999999;
+                line-height: pxToRem(30);
+                span{
+                    color:#333333;
+                }
+            }
+        }
+        .bnt{
+            width:100%;
+            height:pxToRem2(80);
+            margin:pxToRem2(47) auto;
+        }
+        .button {
+            width:100%;
+            height:pxToRem2(80);
+            background: #E04F4C;
+        }
+        .info{
+            width:100%;
+            height:pxToRem2(80);
+            color:#E04F4C;
+            border: 1px Dotted #E04F4C;
+            margin-top:pxToRem2(32);
+        }
+        .amount{
+            position: fixed;
+            bottom: pxToRem2(80);
+            left:50%;
+            transform: translateX(-50%);
+            color:#ccc;
+        }
+        #companyName{
+            position: fixed;
+            bottom: pxToRem2(30);
+            left:50%;
+            transform: translateX(-50%);
+            color:#ccc;
+        }
+    }
+}
